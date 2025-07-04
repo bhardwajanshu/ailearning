@@ -40,7 +40,6 @@ app.secret_key = 'your-secret-key-here'
 class MemorizationWebApp:
     def __init__(self):
         # 🔑 EMBED YOUR OPENAI API KEY HERE
-        self.embedded_api_key = "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"
         
         self.db_path = 'upsc_learning.db'
         self.client = None
